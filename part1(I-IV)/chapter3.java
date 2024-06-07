@@ -19,15 +19,15 @@ boolean isValid = true;
 
 // 3. Reference Variables:
 // Reference variables store the memory address of objects.
-public class Dog {
-    String name;
+// public class Dog {
+//     String name;
     
-    public static void main(String[] args) {
-        Dog myDog = new Dog();
-        myDog.name = "Rex";
-        System.out.println(myDog.name);
-    }
-}
+//     public static void main(String[] args) {
+//         Dog myDog = new Dog();
+//         myDog.name = "Rex";
+//         System.out.println(myDog.name);
+//     }
+// }
 
 
 class Hotel{
@@ -63,20 +63,20 @@ class chapter3 {
 // Arrays store multiple values of the same type.
 // Arrays are objects in Java
 
-public class ArrayTest {
-    public static void main(String[] args) {
-        int[] numbers = new int[5];
-        numbers[0] = 10;
-        numbers[1] = 20;
-        numbers[2] = 30;
-        numbers[3] = 40;
-        numbers[4] = 50;
+// public class ArrayTest {
+//     public static void main(String[] args) {
+//         int[] numbers = new int[5];
+//         numbers[0] = 10;
+//         numbers[1] = 20;
+//         numbers[2] = 30;
+//         numbers[3] = 40;
+//         numbers[4] = 50;
         
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Element at index " + i + ": " + numbers[i]);
-        }
-    }
-}
+//         for (int i = 0; i < numbers.length; i++) {
+//             System.out.println("Element at index " + i + ": " + numbers[i]);
+//         }
+//     }
+// }
 
 
 
